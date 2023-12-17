@@ -1,1 +1,4 @@
-FROM hello-world
+FROM nginx
+
+COPY index.html /usr/share/nginx/html/
+ 
